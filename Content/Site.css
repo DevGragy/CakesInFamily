@@ -1,0 +1,161 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.centrado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-izq {
+    text-align: start;
+}
+
+.ochocien {
+    height: 80vh;
+}
+
+.caja-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-account {
+    max-width: 500px;
+}
+
+.margen-1 {
+    margin: 40px 0;
+}
+
+.f-title {
+    font-size: 80px;
+}
+
+.f-subtitle {
+    font-size: 32px;
+}
+
+.contact_form {
+    max-width: 900px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+}
+
+.my-input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.my-textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.my-label {
+    display: block;
+    float: center;
+}
+
+.my-button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #97d848;
+    border-color: #97d848;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+.my-button p {
+    color: #fff;
+}
+
+.my-span {
+    color: #ab4493;
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
